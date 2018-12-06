@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="x6Y-mm-wPA" id="Jru-ZU-eoN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="MyToDoLs" id="1zT-V4-mYF"/>
+                    <navigationItem key="navigationItem" title="MyToDoLs" id="1zT-V4-mYF">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="tl4-MW-FZS">
+                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="x6Y-mm-wPA" id="25s-1m-Sel"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xJM-x9-VJJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
