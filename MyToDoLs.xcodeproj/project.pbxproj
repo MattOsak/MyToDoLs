@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9922FC121BB1E970059BA8E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9922FC021BB1E970059BA8E /* Item.swift */; };
 		C9B8F4A721B744D200692425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B8F4A621B744D200692425 /* AppDelegate.swift */; };
 		C9B8F4A921B744D200692425 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B8F4A821B744D200692425 /* ToDoListViewController.swift */; };
 		C9B8F4AC21B744D200692425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B8F4AA21B744D200692425 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9922FC021BB1E970059BA8E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C9B8F4A321B744D200692425 /* MyToDoLs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoLs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B8F4A621B744D200692425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B8F4A821B744D200692425 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
@@ -35,10 +37,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9922FC321BB1F310059BA8E /* Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8F4A621B744D200692425 /* AppDelegate.swift */,
+				C9B8F4A821B744D200692425 /* ToDoListViewController.swift */,
+			);
+			path = "Controller ";
+			sourceTree = "<group>";
+		};
+		C9922FC421BB1F410059BA8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9922FC021BB1E970059BA8E /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9922FC521BB1F520059BA8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8F4AA21B744D200692425 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9922FC621BB1F900059BA8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8F4AF21B744D200692425 /* LaunchScreen.storyboard */,
+				C9B8F4AD21B744D200692425 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C9B8F49A21B744D200692425 = {
 			isa = PBXGroup;
 			children = (
 				C9B8F4A521B744D200692425 /* MyToDoLs */,
+				C9B8F4B221B744D200692425 /* Info.plist */,
 				C9B8F4A421B744D200692425 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +91,10 @@
 		C9B8F4A521B744D200692425 /* MyToDoLs */ = {
 			isa = PBXGroup;
 			children = (
-				C9B8F4A621B744D200692425 /* AppDelegate.swift */,
-				C9B8F4A821B744D200692425 /* ToDoListViewController.swift */,
-				C9B8F4AA21B744D200692425 /* Main.storyboard */,
-				C9B8F4AD21B744D200692425 /* Assets.xcassets */,
-				C9B8F4AF21B744D200692425 /* LaunchScreen.storyboard */,
-				C9B8F4B221B744D200692425 /* Info.plist */,
+				C9922FC421BB1F410059BA8E /* Model */,
+				C9922FC521BB1F520059BA8E /* View */,
+				C9922FC321BB1F310059BA8E /* Controller  */,
+				C9922FC621BB1F900059BA8E /* Supporting Files */,
 			);
 			path = MyToDoLs;
 			sourceTree = "<group>";
@@ -136,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B8F4A921B744D200692425 /* ToDoListViewController.swift in Sources */,
+				C9922FC121BB1E970059BA8E /* Item.swift in Sources */,
 				C9B8F4A721B744D200692425 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH5Q4P7XM2;
-				INFOPLIST_FILE = MyToDoLs/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KH5Q4P7XM2;
-				INFOPLIST_FILE = MyToDoLs/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
