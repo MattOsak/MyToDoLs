@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		C91DA70821BC1A5100981DE4 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		C97E418F21C2A05900987CCA /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		C9B8F4A321B744D200692425 /* MyToDoLs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoLs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B8F4A321B744D200692425 /* MyToDoLsRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoLsRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B8F4A621B744D200692425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B8F4A821B744D200692425 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		C9B8F4AB21B744D200692425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		C9B8F4A421B744D200692425 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9B8F4A321B744D200692425 /* MyToDoLs.app */,
+				C9B8F4A321B744D200692425 /* MyToDoLsRealm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9B8F4A221B744D200692425 /* MyToDoLs */ = {
+		C9B8F4A221B744D200692425 /* MyToDoLsRealm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9B8F4B521B744D200692425 /* Build configuration list for PBXNativeTarget "MyToDoLs" */;
+			buildConfigurationList = C9B8F4B521B744D200692425 /* Build configuration list for PBXNativeTarget "MyToDoLsRealm" */;
 			buildPhases = (
 				C9B8F49F21B744D200692425 /* Sources */,
 				C9B8F4A021B744D200692425 /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = MyToDoLs;
+			name = MyToDoLsRealm;
 			productName = MyToDoLs;
-			productReference = C9B8F4A321B744D200692425 /* MyToDoLs.app */;
+			productReference = C9B8F4A321B744D200692425 /* MyToDoLsRealm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9B8F49E21B744D200692425 /* Build configuration list for PBXProject "MyToDoLs" */;
+			buildConfigurationList = C9B8F49E21B744D200692425 /* Build configuration list for PBXProject "MyToDoLsRealm" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9B8F4A221B744D200692425 /* MyToDoLs */,
+				C9B8F4A221B744D200692425 /* MyToDoLsRealm */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9B8F49E21B744D200692425 /* Build configuration list for PBXProject "MyToDoLs" */ = {
+		C9B8F49E21B744D200692425 /* Build configuration list for PBXProject "MyToDoLsRealm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9B8F4B321B744D200692425 /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9B8F4B521B744D200692425 /* Build configuration list for PBXNativeTarget "MyToDoLs" */ = {
+		C9B8F4B521B744D200692425 /* Build configuration list for PBXNativeTarget "MyToDoLsRealm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9B8F4B621B744D200692425 /* Debug */,
